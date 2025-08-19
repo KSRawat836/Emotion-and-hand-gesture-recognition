@@ -84,12 +84,12 @@ The program will access your webcam and begin real-time prediction.
 Project Structure
 text
 .
-├── main.py             # Entry point for real-time recognition
-├── train_knn.py        # Script to train KNN-based gesture recognizer
-├── train/              # Training data for models
-├── test/               # Test data for models
-├── requirements.txt    # Python dependencies (to be added if not present)
-└── README.md           # You are here!
+  main.py             # Entry point for real-time recognition
+  train_knn.py        # Script to train KNN-based gesture recognizer
+  train/              # Training data for models
+  test/               # Test data for models
+  requirements.txt    # Python dependencies (to be added if not present)
+  README.md           # You are here!
 
 Datasets Used
 FER-2013 for emotion recognition (publicly available on Kaggle)
