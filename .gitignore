@@ -1,0 +1,23 @@
+# virtual environments
+myenv/
+venv/
+mp_env/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# jupyter notebooks
+.ipynb_checkpoints/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# model weights - use git lfs instead
+*.pkl
+*.h5
+*.pt
+*.ckpt
